@@ -1,0 +1,84 @@
+body {
+    background-image: linear-gradient(to right, red, yellow, blue, green);
+}
+.kotak {
+    background-image: linear-gradient( to bottom, red, yellow, blue);
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 85px;
+    border-radius: 30px;
+}
+
+.username {
+    color: white;
+    margin-right: 350px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+input[type=text], select {
+    width: 450px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.password {
+    color: white;
+    margin-right: 350px;
+    padding-top: 20px;
+    font-size: 20px;
+    
+}
+
+input[type=password], select {
+    width: 450px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.teks-1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+.teks-2 {
+    text-align: center;
+    padding-top: -550px;
+    color: white;
+}
+
+.submit {
+    background-color: rgba(57, 122, 235, 0.863);
+    border: none;
+    color: white;
+    padding: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    margin-left: 390px;
+    margin-top: 45px;
+    font-size: 15px;
+}
+
+.submit:hover {
+    background-image: repeating-linear-gradient( red, blue, purple);
+}
+    
+
+
+#fname-2 {
+    margin-bottom: 40px;
+}
